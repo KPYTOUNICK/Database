@@ -47,7 +47,7 @@ Public Sub Create(Connection As String)
     Exit Sub
     
 ErrorHandler_Connection:
-    MsgBox "Не удалось подключиться к серверу. Попробуйте снова."
+    MsgBox "Couldn't connect to the server. Try again."
     
 End Sub
 
@@ -64,6 +64,6 @@ Public Sub Destroy()
     Exit Sub
     
 ErrorHandler_Disconnection:
-    MsgBox "Не удалось отключится от сервера корректно."
+    MsgBox "Couldn't disconnect from the server correctly."
     
 End Sub
