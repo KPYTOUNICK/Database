@@ -58,7 +58,7 @@ Public Sub Destroy()
         pConnection.Close
         Let ConnectionExists = False
     Else
-        MsgBox "Отключение от сервера невозможно, т.к. подключение отсутствует."
+        MsgBox "Disconnecting from the server is not possible because there is no connection."
     End If
     
     Exit Sub
